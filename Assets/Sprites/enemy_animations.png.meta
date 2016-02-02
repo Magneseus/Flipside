@@ -1,0 +1,737 @@
+fileFormatVersion: 2
+guid: 0d8b0d3735d7c7a41ba624c098195abe
+timeCreated: 1454206432
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: enemy_animations_0
+    21300002: enemy_animations_1
+    21300004: enemy_animations_2
+    21300006: enemy_animations_3
+    21300008: enemy_animations_4
+    21300010: enemy_animations_5
+    21300012: enemy_animations_6
+    21300014: enemy_animations_7
+    21300016: enemy_animations_8
+    21300018: enemy_animations_9
+    21300020: enemy_animations_10
+    21300022: enemy_animations_11
+    21300024: enemy_animations_12
+    21300026: enemy_animations_13
+    21300028: enemy_animations_14
+    21300030: enemy_animations_15
+    21300032: enemy_animations_16
+    21300034: enemy_animations_17
+    21300036: enemy_animations_18
+    21300038: enemy_animations_19
+    21300040: enemy_animations_20
+    21300042: enemy_animations_21
+    21300044: enemy_animations_22
+    21300046: enemy_animations_23
+    21300048: enemy_animations_24
+    21300050: enemy_animations_25
+    21300052: enemy_animations_26
+    21300054: enemy_animations_27
+    21300056: enemy_animations_28
+    21300058: enemy_animations_29
+    21300060: enemy_animations_30
+    21300062: enemy_animations_31
+    21300064: enemy_animations_32
+    21300066: enemy_animations_33
+    21300068: enemy_animations_34
+    21300070: enemy_animations_35
+    21300072: enemy_animations_36
+    21300074: enemy_animations_37
+    21300076: enemy_animations_38
+    21300078: enemy_animations_39
+    21300080: enemy_animations_40
+    21300082: enemy_animations_41
+    21300084: enemy_animations_42
+    21300086: enemy_animations_43
+    21300088: enemy_animations_44
+    21300090: enemy_animations_45
+    21300092: enemy_animations_46
+    21300094: enemy_animations_47
+    21300096: enemy_animations_48
+    21300098: enemy_animations_49
+    21300100: enemy_animations_50
+    21300102: enemy_animations_51
+    21300104: enemy_animations_52
+    21300106: enemy_animations_53
+    21300108: enemy_animations_54
+    21300110: enemy_animations_55
+    21300112: enemy_animations_56
+    21300114: enemy_animations_57
+    21300116: enemy_animations_58
+    21300118: enemy_animations_59
+    21300120: enemy_animations_60
+    21300122: enemy_animations_61
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: enemy_animations_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 5335
+        width: 390
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_1
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 5335
+        width: 394
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_2
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 5335
+        width: 388
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_3
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 5335
+        width: 388
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 4706
+        width: 936
+        height: 573
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_5
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 4874
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_6
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 4684
+        width: 712
+        height: 572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_7
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 4684
+        width: 698
+        height: 572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_8
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 4153
+        width: 215
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_9
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 4148
+        width: 207
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_10
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 4142
+        width: 232
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_11
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 4142
+        width: 232
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_12
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 4189
+        width: 307
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_13
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 4189
+        width: 307
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_14
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 4483
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_15
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 4189
+        width: 304
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_16
+      rect:
+        serializedVersion: 2
+        x: 3097
+        y: 4189
+        width: 304
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_17
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 3946
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_18
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 3860
+        width: 427
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_19
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 3860
+        width: 53
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_20
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 3860
+        width: 92
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_21
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 3860
+        width: 103
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_22
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 3860
+        width: 40
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_23
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 3860
+        width: 64
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_24
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 3860
+        width: 53
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_25
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 3860
+        width: 51
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_26
+      rect:
+        serializedVersion: 2
+        x: 2404
+        y: 3860
+        width: 50
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_27
+      rect:
+        serializedVersion: 2
+        x: 2533
+        y: 3860
+        width: 30
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_28
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 3860
+        width: 95
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_29
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 3910
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_30
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 3860
+        width: 19
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_31
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 3910
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_32
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 3860
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_33
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 3860
+        width: 26
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_34
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 3860
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_35
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 3860
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_36
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 3860
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_37
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 3860
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_38
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 3860
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_39
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 3860
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_40
+      rect:
+        serializedVersion: 2
+        x: 2337
+        y: 3860
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_41
+      rect:
+        serializedVersion: 2
+        x: 2474
+        y: 3860
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_42
+      rect:
+        serializedVersion: 2
+        x: 2561
+        y: 3860
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_43
+      rect:
+        serializedVersion: 2
+        x: 2781
+        y: 3860
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_44
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 3273
+        width: 162
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_45
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 3555
+        width: 14
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_46
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 3555
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_47
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 3271
+        width: 79
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_48
+      rect:
+        serializedVersion: 2
+        x: 2281
+        y: 3555
+        width: 506
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_49
+      rect:
+        serializedVersion: 2
+        x: 2538
+        y: 3271
+        width: 78
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_50
+      rect:
+        serializedVersion: 2
+        x: 2831
+        y: 3555
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_51
+      rect:
+        serializedVersion: 2
+        x: 2848
+        y: 3555
+        width: 17
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_52
+      rect:
+        serializedVersion: 2
+        x: 2870
+        y: 3346
+        width: 316
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_53
+      rect:
+        serializedVersion: 2
+        x: 3577
+        y: 3273
+        width: 78
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_54
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 3312
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_55
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2441
+        width: 584
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_56
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 2385
+        width: 583
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_57
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 2385
+        width: 575
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_58
+      rect:
+        serializedVersion: 2
+        x: 2306
+        y: 2349
+        width: 592
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_59
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1863
+        width: 1882
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_60
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1204
+        width: 1882
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_animations_61
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 536
+        width: 1882
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

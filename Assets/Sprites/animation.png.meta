@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: d5bbac8225525f445bb42973d477efab
+timeCreated: 1454153480
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: animation_0
+    21300002: animation_1
+    21300004: animation_2
+    21300006: animation_3
+    21300008: animation_4
+    21300010: animation_5
+    21300012: animation_6
+    21300014: animation_7
+    21300016: animation_8
+    21300018: animation_9
+    21300020: animation_10
+    21300022: animation_11
+    21300024: animation_12
+    21300026: animation_13
+    21300028: animation_14
+    21300030: animation_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: animation_0
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 2383
+        width: 379
+        height: 386
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: animation_1
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 2406
+        width: 407
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: animation_2
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 2380
+        width: 236
+        height: 410
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: animation_3
+      rect:
+        serializedVersion: 2
+        x: 2790
+        y: 2380
+        width: 316
+        height: 403
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: animation_4
+      rect:
+        serializedVersion: 2
+        x: 3373
+        y: 2353
+        width: 358
+        height: 395
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: animation_5
+      rect:
+        serializedVersion: 2
+        x: 4046
+        y: 2350
+        width: 300
+        height: 403
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: animation_6
+      rect:
+        serializedVersion: 2
+        x: 4791
+        y: 2298
+        width: 236
+        height: 410
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: animation_7
+      rect:
+        serializedVersion: 2
+        x: 5303
+        y: 2371
+        width: 407
+        height: 340
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: animation_8
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1838
+        width: 343
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: animation_9
+      rect:
+        serializedVersion: 2
+        x: 2442
+        y: 1826
+        width: 327
+        height: 364
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: animation_10
+      rect:
+        serializedVersion: 2
+        x: 3009
+        y: 1862
+        width: 343
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: animation_11
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 1283
+        width: 340
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: animation_12
+      rect:
+        serializedVersion: 2
+        x: 2381
+        y: 1292
+        width: 373
+        height: 325
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: animation_13
+      rect:
+        serializedVersion: 2
+        x: 2942
+        y: 1324
+        width: 376
+        height: 308
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: animation_14
+      rect:
+        serializedVersion: 2
+        x: 3423
+        y: 1319
+        width: 373
+        height: 325
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: animation_15
+      rect:
+        serializedVersion: 2
+        x: 3987
+        y: 1286
+        width: 343
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
