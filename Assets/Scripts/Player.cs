@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+using UnityStandardAssets.CrossPlatformInput;
+
 public class Player : MonoBehaviour {
 
 	private Camera camera;
@@ -226,8 +228,8 @@ public class Player : MonoBehaviour {
 		gravity = -5f;
 
 		/*****GET AXIS******/
-		float h = Input.GetAxis ("Horizontal");
-		float v = Input.GetAxis ("Vertical");
+		float h = CrossPlatformInputManager.GetAxis ("Horizontal");
+		float v = CrossPlatformInputManager.GetAxis ("Vertical");
 
 
 		/*****ANIMATION STUFF*****/
@@ -235,10 +237,10 @@ public class Player : MonoBehaviour {
 		anim.SetBool ("Grounded", grounded);
 
 		/*****PLAYER DIRECTION*****/
-		if (Input.GetAxis ("Horizontal") < -0.1f) {
+		if (CrossPlatformInputManager.GetAxis ("Horizontal") < -0.1f) {
 			transform.localScale = new Vector3 (-1, 1, 1);
 			anim.SetFloat ("Speed", 1);
-		} else if (Input.GetAxis ("Horizontal") > 0.1f) {
+		} else if (CrossPlatformInputManager.GetAxis ("Horizontal") > 0.1f) {
 			transform.localScale = new Vector3 (1, 1, 1);
 			anim.SetFloat ("Speed", 1);
 		} else {
@@ -269,7 +271,7 @@ public class Player : MonoBehaviour {
 
 
 		/*****PLAYER JUMP******/
-		if (Input.GetButtonDown ("Jump") && grounded) {
+		if (CrossPlatformInputManager.GetButtonDown ("Jump") && grounded) {
 			playerRigidbody.AddForce(Vector2.up * jumpPower);
 		}
 
@@ -289,8 +291,8 @@ public class Player : MonoBehaviour {
 		gravity = -5f;
 		
 		/*****GET AXIS******/
-		float h = Input.GetAxis ("Horizontal");
-		float v = Input.GetAxis ("Vertical");
+		float h = CrossPlatformInputManager.GetAxis ("Horizontal");
+		float v = CrossPlatformInputManager.GetAxis ("Vertical");
 		
 		
 		/*****ANIMATION STUFF*****/
@@ -298,10 +300,10 @@ public class Player : MonoBehaviour {
 		anim.SetBool ("Grounded", grounded);
 
 		/*****PLAYER DIRECTION*****/
-		if (Input.GetAxis ("Horizontal") < -0.1f) {
+		if (CrossPlatformInputManager.GetAxis ("Horizontal") < -0.1f) {
 			transform.localScale = new Vector3 (-1, 1, 1);
 			anim.SetFloat ("Speed", 1);
-		} else if (Input.GetAxis ("Horizontal") > 0.1f) {
+		} else if (CrossPlatformInputManager.GetAxis ("Horizontal") > 0.1f) {
 			transform.localScale = new Vector3 (1, 1, 1);
 			anim.SetFloat ("Speed", 1);
 		} else {
@@ -332,7 +334,7 @@ public class Player : MonoBehaviour {
 		
 		
 		/*****PLAYER JUMP******/
-		if (Input.GetButtonDown ("Jump") && grounded) {
+		if (CrossPlatformInputManager.GetButtonDown ("Jump") && grounded) {
 			playerRigidbody.AddForce(new Vector2(-1,0) * jumpPower);
 		}
 
@@ -352,8 +354,8 @@ public class Player : MonoBehaviour {
 		/*****SET GRAVITY******/
 		gravity = -5f;
 
-		float h = Input.GetAxis ("Horizontal");
-		float v = Input.GetAxis ("Vertical");
+		float h = CrossPlatformInputManager.GetAxis ("Horizontal");
+		float v = CrossPlatformInputManager.GetAxis ("Vertical");
 		
 		
 		/*****ANIMATION STUFF*****/
@@ -361,10 +363,10 @@ public class Player : MonoBehaviour {
 		anim.SetBool ("Grounded", grounded);
 
 		/*****PLAYER DIRECTION*****/
-		if (Input.GetAxis ("Horizontal") < -0.1f) {
+		if (CrossPlatformInputManager.GetAxis ("Horizontal") < -0.1f) {
 			transform.localScale = new Vector3 (-1, 1, 1);
 			anim.SetFloat ("Speed", 1);
-		} else if (Input.GetAxis ("Horizontal") > 0.1f) {
+		} else if (CrossPlatformInputManager.GetAxis ("Horizontal") > 0.1f) {
 			transform.localScale = new Vector3 (1, 1, 1);
 			anim.SetFloat ("Speed", 1);
 		} else {
@@ -395,7 +397,7 @@ public class Player : MonoBehaviour {
 		
 		
 		/*****PLAYER JUMP******/
-		if (Input.GetKeyDown("space") && grounded) {
+		if (CrossPlatformInputManager.GetButtonDown("Jump") && grounded) {
 			playerRigidbody.AddForce(new Vector2(1, 0) * jumpPower);
 		}
 		
@@ -416,8 +418,8 @@ public class Player : MonoBehaviour {
 		gravity = -5f;
 		
 		/*****GET AXIS******/
-		float h = Input.GetAxis ("Horizontal");
-		float v = Input.GetAxis ("Vertical");
+		float h = CrossPlatformInputManager.GetAxis ("Horizontal");
+		float v = CrossPlatformInputManager.GetAxis ("Vertical");
 		
 		
 		/*****ANIMATION STUFF*****/
@@ -425,10 +427,10 @@ public class Player : MonoBehaviour {
 		anim.SetBool ("Grounded", grounded);
 
 		/*****PLAYER DIRECTION*****/
-		if (Input.GetAxis ("Horizontal") < -0.1f) {
+		if (CrossPlatformInputManager.GetAxis ("Horizontal") < -0.1f) {
 			transform.localScale = new Vector3 (-1, 1, 1);
 			anim.SetFloat ("Speed", 1);
-		} else if (Input.GetAxis ("Horizontal") > 0.1f) {
+		} else if (CrossPlatformInputManager.GetAxis ("Horizontal") > 0.1f) {
 			transform.localScale = new Vector3 (1, 1, 1);
 			anim.SetFloat ("Speed", 1);
 		} else {
@@ -439,7 +441,7 @@ public class Player : MonoBehaviour {
 		velocity.y = gravity * time;
 		//displacment = velocity.y*time;
 		
-		playerRigidbody.AddForce (new Vector2(0,-1) * velocity.y);
+		playerRigidbody.AddForce (new Vector2(0,-1) * velocity.y); 
 		
 		
 		/*****INITIALIZE EASING VECTOR******/
@@ -459,7 +461,7 @@ public class Player : MonoBehaviour {
 		
 		
 		/*****PLAYER JUMP******/
-		if (Input.GetButtonDown ("Jump") && grounded) {
+		if (CrossPlatformInputManager.GetButtonDown ("Jump") && grounded) {
 			playerRigidbody.AddForce(new Vector2(0, -1) * jumpPower);
 		}
 		
